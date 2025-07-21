@@ -226,7 +226,7 @@ export default function RootLayout({
               description:
                 "Watch how easy it is to clip all your King Soopers digital coupons automatically with the Coupon Clipper browser extension.",
               thumbnailUrl: "/images/clip.png",
-              uploadDate: "2024-01-01",
+              uploadDate: "2024-01-01T00:00:00Z",
               duration: "PT2M",
               embedUrl: "https://www.youtube.com/embed/t3esIQwrWVY",
               publisher: {

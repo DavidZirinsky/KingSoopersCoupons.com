@@ -99,7 +99,7 @@ export default function LandingPage() {
               aria-label="Download Coupon Clipper for Firefox"
             >
               <img
-                src="/images/firefox-badge.png"
+                src="/images/firefox.svg"
                 alt="Get it on Firefox"
                 width={230}
                 height={75}
@@ -190,9 +190,9 @@ export default function LandingPage() {
                   aria-hidden="true"
                 ></div>
                 <div className="absolute bottom-4 left-4 text-white">
-                  <p className="text-sm font-medium">Regular: $2.99</p>
+                  <p className="text-sm font-medium">Regular: $8.49</p>
                   <p className="text-lg font-bold text-yellow-400">
-                    With Coupon: $1.49
+                    With Coupon: $5.99
                   </p>
                 </div>
               </div>
@@ -447,7 +447,7 @@ export default function LandingPage() {
                 aria-label="Download Coupon Clipper for Firefox"
               >
                 <img
-                  src="/images/firefox-badge.png"
+                  src="/images/firefox.svg"
                   alt="Firefox Add-ons"
                   width={230}
                   height={75}
