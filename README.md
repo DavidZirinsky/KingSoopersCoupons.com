@@ -1,6 +1,6 @@
 # King Soopers Coupon Website
 
-A static website for kingsooperscoupon.com built with Next.js and Tailwind CSS. This site helps users find and clip digital coupons for King Soopers grocery stores.
+A static website for kingsooperscoupons.com built with Next.js and Tailwind CSS. This site helps users find and clip digital coupons for King Soopers grocery stores.
 
 ## Getting Started
 
