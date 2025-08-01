@@ -1,10 +1,10 @@
-import type React from "react"
-import type { Metadata } from "next"
-import { Inter } from "next/font/google"
-import Script from "next/script"
-import "./globals.css"
+import type React from "react";
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import Script from "next/script";
+import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Coupon Clipper - Never Miss a King Soopers Digital Coupon Again",
@@ -71,13 +71,13 @@ export const metadata: Metadata = {
     canonical: "https://coupon-clipper.com",
   },
   category: "Shopping",
-    generator: 'v0.dev'
-}
+  generator: "v0.dev",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
@@ -92,12 +92,16 @@ export default function RootLayout({
         <meta name="mobile-web-app-capable" content="yes" />
 
         {/* Favicon */}
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/images/coupon-icon.png" />
+        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/icon.svg" />
 
         {/* Preconnect to external domains */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
         <link rel="preconnect" href="https://www.youtube.com" />
 
         {/* JSON-LD Structured Data */}
@@ -155,7 +159,7 @@ export default function RootLayout({
               "@type": "Organization",
               name: "Coupon Clipper",
               url: "https://coupon-clipper.com",
-              logo: "/images/coupon-icon.png",
+              logo: "/icon.svg",
               sameAs: [
                 "https://github.com/DavidZirinsky/Coupon-Clipper",
                 "https://chromewebstore.google.com/detail/coupon-clipper/mhlpjojbmabefhmkodfokajcdblpfoca",
@@ -234,7 +238,7 @@ export default function RootLayout({
                 name: "Coupon Clipper",
                 logo: {
                   "@type": "ImageObject",
-                  url: "/images/coupon-icon.png",
+                  url: "/icon.svg",
                 },
               },
             }).replace(/</g, "\u003c"),
@@ -259,5 +263,5 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>{children}</body>
     </html>
-  )
+  );
 }
